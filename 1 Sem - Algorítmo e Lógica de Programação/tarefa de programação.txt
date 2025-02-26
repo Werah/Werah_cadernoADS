@@ -1,0 +1,29 @@
+1 - Definir variaveis A B e C para a equação (A = Nx² / B = Nx / C = Nx)
+2 - Inserir o Valor de A
+3 - Guardar o Valor de A
+4 - Inserir o Valor de B
+5 - Guardar o Valor de B
+6 - Inserir o Valor de C
+7 - Guardar o Valor de C
+8 - Se A, B e C não forem 0, realizar a formula de Bhaskara
+	8.1 - Resolver a conta ((b * b) + (-4 * a * c))
+	8.2 - Guardar o Resultado no Delta
+	8.3 - Resolver Raiz de Delta
+	8.4 - Guardar a Raiz de Delta
+	8.5 - Resolver ((-b + Raiz de Delta) / (2 * a))
+	8.6 - Guardar no xPositivo
+	8.7 - Resolver ((-b - Raiz de Delta) / (2 * a))
+	8.8 - Guardar no xNegativo
+9 - Se A e B não forem 0, e C for 0, colocar o X em evidência
+	9.1 - Guardar xPositivo com o valor 0
+	9.2 - Resolver (b - (b * 2)) / ((a - (a * 2)))
+	9.3 - Guardar o resultado em xNegativo
+10 - Se A e C não forem 0, e B for 0, isolar o X
+	10.1 - Resolver ((c -(c*2)) / (a -(a*2)))
+	10.2 - Guardar esse resultado na variavel Raiz
+	10.3 - Fazer a raiz desse resultado
+	10.4 - Guardar esse resultado positivo em xPositivo, 
+		 Guardar esse resultado negativo em xNegativo
+11 - Se A não for 0, e B e C forem 0, x = 0
+12 - Se A for 0, enviar a mensagem de "Não é uma equação de segundo grau"
+13 - Exibir o valor das raizes (xPositivo/xNegativo) de acordo com a operação realizada.
