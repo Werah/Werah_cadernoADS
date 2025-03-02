@@ -17,5 +17,3 @@ else:
     pos = "3º"
 
 print(f" O maior valor é o {pos}: {maior}!")
-
-
